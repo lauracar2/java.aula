@@ -19,14 +19,14 @@ public class AA {
 		System.out.println("Informe a capacidade do tanque: ");
 		double capacidade = sc.nextDouble();
 
-		if (tipo.equals("g") || tipo.equals("G")) {
+		if (tipo.equals("a") || tipo.equals("A")) {
 
 			double tanque = gasolina * capacidade;
 			System.out.println("O valor total para encher o tanque é de " + tanque);
 
 		}
 
-		if (tipo.equals("a") || tipo.equals("A")) {
+		if (tipo.equals("b") || tipo.equals("B")) {
 
 			double tanque = alcool * capacidade;
 			System.out.println("O valor total para encher o tanque é de " + tanque);
